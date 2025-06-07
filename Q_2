@@ -1,0 +1,24 @@
+
+Print Even number N
+N=5
+O/P=2 4 6 8 10
+
+N=6
+O/p=2 4 6 8 10 12
+
+
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int n;
+    cin>>n;
+    for(int i=1;i<=(2*n);i++)
+    {
+        if(i%2==0)
+        {
+            cout<<i<<" ";
+        }
+    }
+    return 0;
+}
